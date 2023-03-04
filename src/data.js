@@ -12,6 +12,13 @@ import {
   FiMapPin,
 } from 'react-icons/fi';
 
+
+//  icons
+import {
+AiOutlineMenu,
+AiOutlineClose,
+} from 'react-icons/ai';
+
 // companies icons
 import FreelancerBrandIcon from './assets/img/brands/freelancer.png';
 import UpworkBrandIcon from './assets/img/brands/upwork.png';
@@ -41,6 +48,15 @@ import SkillImg8 from './assets/img/skills/figma.png';
 import TestiImage1 from './assets/img/testimonials/testimonial-1.webp';
 import TestiImage2 from './assets/img/testimonials/testimonial-2.webp';
 import TestiImage3 from './assets/img/testimonials/testimonial-3.webp';
+
+// logo
+import logoImage from './assets/img/logo.svg'
+
+
+export const logoCaption = "John Wilson";
+
+export const logo = logoImage;
+export const icons = {menu: <AiOutlineMenu/>, close: <AiOutlineClose/>}
 
 // navigation
 export const navigation = [

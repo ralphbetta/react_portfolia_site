@@ -51,11 +51,14 @@ import TestiImage3 from './assets/img/testimonials/testimonial-3.webp';
 
 // logo
 import logoImage from './assets/img/logo.svg'
+import bannerWoman from './assets/img/banner-woman2.webp'
 
 
 export const logoCaption = "John Wilson";
 
 export const logo = logoImage;
+export const bannerImage = bannerWoman;
+
 export const icons = {menu: <AiOutlineMenu/>, close: <AiOutlineClose/>}
 
 // navigation

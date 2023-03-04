@@ -18,10 +18,10 @@ const Navbar = () => {
 
 
     return (
-        <header className='h-[64px] flex justify-between items-center px-10'>
+        <header className='h-[64px] flex justify-between items-center px-10 sm:px-20'>
             {/* Logo */}
-            <div className=" text-2xl font-semibold h-[40px] text-[#f2f2f2]">
-                <img src={logo} alt="" />
+            <div className=" text-2xl font-semibold text-[#f2f2f2]">
+                <img className='h-[20px]' src={logo} alt="" />
             </div>
 
             {/* Menu */}

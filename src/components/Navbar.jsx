@@ -18,7 +18,7 @@ const Navbar = () => {
 
 
     return (
-        <header className='h-[64px] flex justify-between items-center px-10 sm:px-20'>
+        <header className='h-[64px] flex justify-between items-center px-10 sm:px-20 bg-slate-900 fixed w-full'>
             {/* Logo */}
             <div className=" text-2xl font-semibold text-[#f2f2f2]">
                 <img className='h-[20px]' src={logo} alt="" />

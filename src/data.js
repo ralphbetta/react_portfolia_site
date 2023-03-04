@@ -49,15 +49,18 @@ import TestiImage1 from './assets/img/testimonials/testimonial-1.webp';
 import TestiImage2 from './assets/img/testimonials/testimonial-2.webp';
 import TestiImage3 from './assets/img/testimonials/testimonial-3.webp';
 
-// logo
-import logoImage from './assets/img/logo.svg'
-import bannerWoman from './assets/img/banner-woman2.webp'
+// logo -banner - about
+import logoImagePath from './assets/img/logo.svg'
+import bannerImagePath from './assets/img/banner-woman2.webp'
+import aboutImagePath from './assets/img/about.webp'
 
 
 export const logoCaption = "John Wilson";
 
-export const logo = logoImage;
-export const bannerImage = bannerWoman;
+export const logo = logoImagePath;
+export const bannerImage = bannerImagePath;
+export const aboutImage = aboutImagePath;
+
 
 export const icons = {menu: <AiOutlineMenu/>, close: <AiOutlineClose/>}
 

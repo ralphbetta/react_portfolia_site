@@ -17,6 +17,7 @@ import {
 import {
 AiOutlineMenu,
 AiOutlineClose,
+AiFillCiCircle,
 } from 'react-icons/ai';
 
 // companies icons
@@ -62,7 +63,7 @@ export const bannerImage = bannerImagePath;
 export const aboutImage = aboutImagePath;
 
 
-export const icons = {menu: <AiOutlineMenu/>, close: <AiOutlineClose/>}
+export const icons = {menu: <AiOutlineMenu/>, close: <AiOutlineClose/>, circle: <AiFillCiCircle/>}
 
 // navigation
 export const navigation = [

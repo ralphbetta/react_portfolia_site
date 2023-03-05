@@ -8,7 +8,7 @@ const Services = () => {
       <h1 className=" text-center text-3xl font-black ">What I do for client</h1>
       <p className=" text-center mx-[15%] mt-5 mb-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis ea provident fugit sit, itaque commodi vero eius fugiat ullam perspiciatis nam quae odit perferendis quis. Mollitia corporis doloremque molestiae error.</p>
 
-      <div className="grid grid-cols-4 gap-x-5">
+      <div className="grid md:grid-cols-4 gap-x-5 gap-y-6 sm:gap-y-0">
         {
         services.map((e, index) => (
           <div className=" bg-slate-800 p-5 rounded-md" key={index}>
@@ -19,7 +19,6 @@ const Services = () => {
         ))}
 
       </div>
-
     </div>
   )
 }

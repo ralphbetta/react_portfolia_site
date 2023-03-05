@@ -4,10 +4,10 @@ import { bannerImage } from '../data'
 
 const Hero = () => {
   return (
-    <div className='grid grid-cols-2 w-full px-20 pt-28 justify-center'>
+    <div className='grid grid-cols-2 w-full px-10 sm:px-20 pt-28 justify-center'>
         <div className=" col-span-2 md:col-span-1 justify-center">
             <p className=" text-accent text-2xl text-center sm:text-left ">Hey!, I'm Sixtus</p>
-            <h1 className='text-4xl md:text-6xl text-center sm:text-left font-medium leading-[-40px] my-4'>
+            <h1 className='text-3xl md:text-6xl text-center sm:text-left font-medium leading-[-40px] my-4'>
                 I Build & Design<br/> Web Applications.
             </h1>
             <p className="text-center sm:text-left ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat accusantium repellendus. </p>

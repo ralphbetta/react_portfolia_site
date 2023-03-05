@@ -3,6 +3,7 @@ import Brands from "./components/Brands";
 import Hero from "./components/Hero";
 import LatestWork from "./components/LatestWork";
 import Navbar from "./components/Navbar";
+import Services from "./components/Services";
 import Skills from "./components/Skills";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <About/>
       <Skills/>
       <LatestWork/>
+      <Services/>
     </div>
   );
 }

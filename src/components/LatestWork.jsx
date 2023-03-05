@@ -3,7 +3,7 @@ import { projectsNav, projectsData } from '../data'
 
 const LatestWork = () => {
 
-    const [tab, setTab] = useState('All');  //usf
+    const [tab, setTab] = useState('all');  //usf
     const [latestWork, setLatestWork] = useState([]);
     const [filteredWork, setFilteredWork] = useState([]);
 

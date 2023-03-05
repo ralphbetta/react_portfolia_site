@@ -27,12 +27,12 @@ const Navbar = () => {
             {/* Menu */}
 
             <ul className='hidden sm:flex gap-5'>
-                {navigation.map((data, index) => <li className=" capitalize cursor-pointer" key={index}><Link className=' text-white hover:text-accent'>{data.name}</Link></li>)}
+                {navigation.map((data, index) => <li className=" capitalize cursor-pointer" key={index}><Link to='#' className=' text-white hover:text-accent'>{data.name}</Link></li>)}
             </ul>
 
             {/* Socials */}
             <ul className=' hidden sm:flex gap-5'>
-                {social.map((data, index) => <li className=" cursor-pointer text-accent hover:text-white" key={index}><Link>{data.icon}</Link></li>)}
+                {social.map((data, index) => <li className=" cursor-pointer text-accent hover:text-white" key={index}><Link to='#'>{data.icon}</Link></li>)}
             </ul>
             <div className="block sm:hidden" onClick={() => toggleMenu()}>
                 {menu ? icons.menu : icons.close}
@@ -47,7 +47,7 @@ const Navbar = () => {
                 </div>
                 {/* Menu */}
                 <ul className='lex-cols space-y-5 pt-24'>
-                    {navigation.map((data, index) => <li className="capitalize cursor-pointer text-center" key={index}><Link className=' text-white hover:text-accent-hover'>{data.name}</Link></li>)}
+                    {navigation.map((data, index) => <li className="capitalize cursor-pointer text-center" key={index}><Link to='#' className=' text-white hover:text-accent-hover'>{data.name}</Link></li>)}
                 </ul>
 
             </div>

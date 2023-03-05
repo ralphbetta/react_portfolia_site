@@ -9,8 +9,8 @@ const About = () => {
                 <img className=' rounded-2xl h-[75%]' src={aboutImage} alt="" />
             </div>
             <div className='w-full'>
-                <h1 className=' font-bold text-3xl mt-5 md:m-0'>Jane Wilson</h1>
-                <p className=" text-xl text-accent mb-10">Freelance Web Developer</p>
+                <h1 className=' font-bold text-3xl mt-5 md:m-0 text-center md:text-left'>Jane Wilson</h1>
+                <p className=" text-xl text-accent mb-10 text-center md:text-left">Freelance Web Developer</p>
                 <p className=" text-center md:text-left">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, eaque alias. Velit quo aliquid sequi? Porro quis aut dolores, ullam laudantium quae aperiam. Esse cupiditate perspiciatis a ex autem possimus Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur culpa error odio natus. Dicta repudiandae aspernatur delectus explicabo saepe laudantium libero
                 </p>

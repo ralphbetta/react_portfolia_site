@@ -46,7 +46,7 @@ const Testimony = () => {
       }, []);
 
     return (
-        <div className='mx-[10%] mt-5'>
+        <div className='mx-[10%] mt-5 relative -z-4'>
         <Swiper
       navigation={true}
       direction={"horizontal"}
@@ -65,7 +65,7 @@ const Testimony = () => {
     >
 
       {testimonials.map((item, index)=>(
-         <SwiperSlide>
+         <SwiperSlide className='' key={index}>
                 <div className="grid md:grid-cols-3 gap-x-5 sm:w-[80%]">
 
                     <div className='overflow-hidden flex justify-center items-start'>

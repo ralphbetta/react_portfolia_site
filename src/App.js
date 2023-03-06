@@ -1,7 +1,9 @@
 import React from "react";
 import About from "./components/About";
+import BackToTopButton from "./components/BackToTopButton";
 import Brands from "./components/Brands";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import LatestWork from "./components/LatestWork";
 import Navbar from "./components/Navbar";
@@ -21,6 +23,8 @@ function App() {
       <Services/>
       <Testimony/>
       <Contact/>
+      <BackToTopButton/>
+      <Footer/>
     </div>
   );
 }

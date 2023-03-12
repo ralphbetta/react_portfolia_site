@@ -16,10 +16,10 @@ const LatestWork = () => {
 
     const filterData= filterValue => {
         console.log(filterValue)
-        if(filterValue == 'all'){
+        if(filterValue === 'all'){
             setFilteredWork(latestWork);
         }else{
-            const filter = latestWork.filter((e)=> e.category.toUpperCase() == filterValue.toUpperCase());
+            const filter = latestWork.filter((e)=> e.category.toUpperCase() === filterValue.toUpperCase());
             setFilteredWork(filter);
         }
 
@@ -45,7 +45,7 @@ const LatestWork = () => {
 
             <ul className='md:flex justify-center gap-x-10 space-y-5 sm:space-y-0 font-bold my-10 capitalize'>
                 {projectsNav.map((data, index) => (
-                    <li key={index} onClick={()=>switchTab(data.name)} className={tab == data.name ? 'cursor-pointer text-accent text-center' :'cursor-pointer hover:text-accent text-white text-center'}>{data.name}</li>
+                    <li key={index} onClick={()=>switchTab(data.name)} className={tab === data.name ? 'cursor-pointer text-accent text-center' :'cursor-pointer hover:text-accent text-white text-center'}>{data.name}</li>
                 ))}
             </ul>
             <div className='grid md:grid-cols-3 gap-6 px-[15%]'>

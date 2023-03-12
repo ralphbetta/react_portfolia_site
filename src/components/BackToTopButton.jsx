@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 
-import { link, animateScroll as scroll } from 'react-scroll'
+import { animateScroll as scroll } from 'react-scroll'
 
 import { AiOutlineArrowUp } from 'react-icons/ai'
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import {AiOutlineMail, la} from 'react-icons/ai'
+import {AiOutlineMail } from 'react-icons/ai'
 import {CiLocationOn} from 'react-icons/ci'
 
 function Contact() {

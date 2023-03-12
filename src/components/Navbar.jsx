@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import { motion } from 'framer-motion'
 import {
-    logoCaption,
     navigation,
     social,
     logo,
@@ -18,35 +17,26 @@ const Navbar = () => {
         setMenu(!menu);
     }
 
-    const circleVariants = {
-        hidden: {
-            scale: 0
-        },
-        visible: {
-            scale: 180,
-            transition: {
-                type: 'spring',
-                stiffness: 160,
-                damping: 60,
-            },
-        },
-    };
+    let easeing = [0.6, -0.05, 0.01, 0.99];
 
-    const ulVariants = {
-        hidden: {
-            scale: 0
+    const header = {
+        initial: {
+          y: -60,
+          opacity: 0,
+          transition: { duration: 0.05, ease: easeing }
         },
-        visible: {
-            opacity: 1,
-            transition: {
-                delay: 0.1,
-            },
-        },
-    }
-
+        animate: {
+          y: 0,
+          opacity: 1,
+          animation: {
+            duration: 0.6,
+            ease: easeing
+          }
+        }
+      }
 
     return (
-        <header className='h-[64px] flex justify-between items-center px-10 sm:px-20 bg-slate-900 fixed w-full'>
+        <motion.header variants={header}  initial='initial' animate='animate' exit='exit' className='h-[64px] flex justify-between items-center px-10 sm:px-20 bg-slate-900 fixed w-full'>
             {/* Logo */}
             <div className=" text-2xl font-semibold text-[#f2f2f2]">
                 <img className='h-[20px]' src={logo} alt="" />
@@ -95,7 +85,7 @@ const Navbar = () => {
                 </ul>
 
             </motion.div>
-        </header>
+        </motion.header>
     )
 }
 
